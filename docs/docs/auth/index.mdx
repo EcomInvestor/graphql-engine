@@ -25,8 +25,8 @@ As you can see from this:
   into session variables to your authentication service _(existing or new)_.
 
   Your authentication service is required to pass a user's **role** information in the form of session variables like
-  `X-Hasura-Role`, etc. More often than not, you'll also need to pass user information for your access control use
-  cases, like `X-Hasura-User-Id`, to build permission rules.
+  `X-Hasura-admin`, etc. More often than not, you'll also need to pass user information for your access control use
+  cases, like `X-Hasura-admin-IdX-Hasura-Role`, to build permission rules.
 
 - For **Authorization** or **Access Control**, Hasura helps you define granular role-based access control rules for
   every field in your GraphQL schema _(granular enough to control access to any row or column in your database)_.
